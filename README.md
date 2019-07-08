@@ -7,6 +7,8 @@ Get a bunch of PDB files, assuming they are aligned on each other, and merge the
 
 Files can be provided on command line or as a file listing them (to avoid "Argument list too long" bash complaints).
 
+Requires docker to run "my" Gromacs, feel free to change to yours.
+
 Usage:
 
 ```./mergepdb.sh -o outfile [-l list_of_files] [infiles ...]```
@@ -18,6 +20,8 @@ Read a topology (PDB, GRO) and trajectory (XTC, TRR, ...) files, strip anything 
 Technically, eigenvalues of the correlation matrix of movements of all the heavy atoms
 are computed. 
 
+Requires numpy and mdtraj.
+
 Output is a sorted numpy array dumped as text.
 
 Usage:
@@ -28,6 +32,8 @@ Usage:
 ## draw_esd.py
 
 Draw graphs of two sets of normalized eigenvalues computed by calc_esd.py. Number of largest eigenvalues to be considered can be secified (all by default).
+
+Requires numpy and matplotlib.
 
 Usage:
 
