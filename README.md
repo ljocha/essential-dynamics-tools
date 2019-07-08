@@ -21,6 +21,7 @@ are computed.
 Output is a sorted numpy array dumped as text.
 
 Usage:
+
 ```./calc_esd.py -o out.txt -t top.pdb traj.xtc"```
 
 
@@ -29,4 +30,5 @@ Usage:
 Draw graphs of two sets of normalized eigenvalues computed by calc_esd.py. Number of largest eigenvalues to be considered can be secified (all by default).
 
 Usage:
+
 ```./draw_esd.py  [-n num] one.txt two.txt```
