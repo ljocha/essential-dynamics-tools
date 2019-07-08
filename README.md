@@ -9,7 +9,7 @@ Files can be provided on command line or as a file listing them (to avoid "Argum
 
 Usage:
 
-  ./mergepdb.sh -o outfile [-l list_of_files] [infiles ...]
+```./mergepdb.sh -o outfile [-l list_of_files] [infiles ...]```
 
 ## calc_esd.py
 
@@ -21,7 +21,7 @@ are computed.
 Output is a sorted numpy array dumped as text.
 
 Usage:
-  ./calc_esd.py -o out.txt -t top.pdb traj.xtc"
+```./calc_esd.py -o out.txt -t top.pdb traj.xtc"```
 
 
 ## draw_esd.py
@@ -29,4 +29,4 @@ Usage:
 Draw graphs of two sets of normalized eigenvalues computed by calc_esd.py. Number of largest eigenvalues to be considered can be secified (all by default).
 
 Usage:
-  ./draw_esd.py  [-n num] one.txt two.txt
+```./draw_esd.py  [-n num] one.txt two.txt```
