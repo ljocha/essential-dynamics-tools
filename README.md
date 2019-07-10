@@ -15,7 +15,7 @@ Usage:
 
 ## calc_esd.py
 
-Read a topology (PDB, GRO) and trajectory (XTC, TRR, ...) files, strip anything but protein heavy atoms, and calculate essential dynamics coordinates according to [https://doi.org/10.1002/prot.340170408](Amadei, A. et al, Essential dynamics of proteins, Proteins 17(4):412-24, 1993.)
+Read a topology (PDB, GRO) and trajectory (XTC, TRR, ...) files, strip anything but protein heavy atoms, and calculate essential dynamics coordinates according to [Amadei, A. et al, Essential dynamics of proteins, Proteins 17(4):412-24, 1993.](https://doi.org/10.1002/prot.340170408)
 
 Technically, eigenvalues of the correlation matrix of movements of all the heavy atoms
 are computed. 
