@@ -50,7 +50,7 @@ cor /= xyz.shape[0]
 #print("xyz: ",xyz.shape)
 #print("cor: ",cor.shape)
 
-eig = np.sort(np.linalg.eigvalsh(cor))
+eig = np.abs(np.sort(np.linalg.eigvalsh(cor)))
 
 sum = np.sum(eig)
 eig /= sum
